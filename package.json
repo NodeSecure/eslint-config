@@ -1,0 +1,36 @@
+{
+  "name": "@nodesecure/eslint-config",
+  "version": "1.0.0",
+  "description": "NodeSecure Node.js ESLint configuration",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.14.4",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "nyc --reporter=lcov node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/myunisoft/back/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeSecure/eslint-config/issues"
+  },
+  "homepage": "https://github.com/NodeSecure/eslint-config#readme"
+}
