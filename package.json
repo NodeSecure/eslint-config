@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "NodeSecure Node.js ESLint configuration",
   "main": "index.js",
+  "private": false,
   "directories": {
     "test": "test"
   },
