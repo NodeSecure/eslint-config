@@ -150,7 +150,7 @@ const rules = {
   "no-return-assign": ["error", "except-parens"],
 
   // See: https://eslint.org/docs/rules/no-return-await
-  "no-return-await": "error",
+  "no-return-await": "off",
 
   // See: https://eslint.org/docs/rules/no-script-url
   "no-script-url": "error",
