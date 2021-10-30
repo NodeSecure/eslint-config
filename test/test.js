@@ -1,22 +1,24 @@
 "use strict";
 
 // Require Node.js dependencies
-const { join } = require("path");
-const { strictEqual } = require("assert");
+const { strictEqual } = require("assert").strict;
 
 // Require third-party dependencies
-const { CLIEngine } = require("eslint");
+const { ESLint } = require("eslint");
 
-const engine = new CLIEngine({
-    configFile: join(__dirname, "..", "index.js")
-});
+// Require ESLint config
+const config = require("../index");
 
-const result = engine.executeOnText('', 'test.js');
-try {
-    strictEqual(result.errorCount, 0);
-    strictEqual(result.warningCount, 0);
+config.parserOptions.requireConfigFile = false;
+
+async function main() {
+  const eslint = new ESLint({
+    overrideConfig: config
+  });
+
+  const [result] = await eslint.lintText('');
+
+  strictEqual(result.warningCount, 0);
+  strictEqual(result.errorCount, 0);
 }
-catch (err) {
-    console.error(JSON.stringify(result.results, null, 2));
-    throw err;
-}
+main().catch(console.error);
