@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/core": "^7.16.10",
     "@babel/eslint-parser": "^7.16.5",
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.0",
     "eslint": "^8.7.0"
   },
