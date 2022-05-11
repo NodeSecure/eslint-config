@@ -61,7 +61,7 @@ const rules = {
   "id-blacklist": "off",
 
   // See: https://eslint.org/docs/rules/id-length
-  "id-length": ["error", { "max": 30 }],
+  "id-length": "off",
 
   // See: https://eslint.org/docs/rules/id-match
   "id-match": "off",
