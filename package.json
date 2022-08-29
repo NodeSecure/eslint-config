@@ -8,11 +8,11 @@
     "test": "test"
   },
   "dependencies": {
-    "@babel/core": "^7.18.5",
-    "@babel/eslint-parser": "^7.18.2",
-    "@typescript-eslint/eslint-plugin": "^5.27.1",
-    "@typescript-eslint/parser": "^5.28.0",
-    "eslint": "^8.17.0"
+    "@babel/core": "^7.18.13",
+    "@babel/eslint-parser": "^7.18.9",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^8.23.0"
   },
   "devDependencies": {
     "nyc": "^15.1.0"
