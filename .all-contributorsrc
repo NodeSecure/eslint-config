@@ -25,6 +25,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "halcin",
+      "name": "halcin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7302407?v=4",
+      "profile": "https://github.com/halcin",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -32,5 +41,6 @@
   "projectOwner": "NodeSecure",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
