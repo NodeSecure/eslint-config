@@ -119,7 +119,7 @@ const rules = {
   "max-lines-per-function": "off",
 
   // See: https://eslint.org/docs/rules/max-nested-callbacks
-  "max-nested-callbacks": ["error", 3],
+  "max-nested-callbacks": ["error", 5],
 
   // See: https://eslint.org/docs/rules/max-params
   "max-params": ["error", 3],
