@@ -1,6 +1,8 @@
 # Eslint-config
 ![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/NodeSecure/eslint-config/master/package.json&query=$.version&label=Version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/NodeSecure/eslint-config/commit-activity)
+[![OpenSSF
+Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/eslint-config/badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/eslint-config)
 [![mit](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/NodeSecure/eslint-config/blob/master/LICENSE)
 ![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/eslint-config/node.js.yml?branch=master)
 
