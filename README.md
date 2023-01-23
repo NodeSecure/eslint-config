@@ -9,7 +9,7 @@ Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/esl
 NodeSecure Node.js Eslint configuration (Work for both JavaScript and TypeScript projects).
 
 ## Requirements
-- [Node.js](https://nodejs.org/en/) v14 or higher
+- [Node.js](https://nodejs.org/en/) v16 or higher
 
 ## Getting Started
 
