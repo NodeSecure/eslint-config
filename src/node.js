@@ -30,10 +30,7 @@ const rules = {
   "no-process-exit": "off",
 
   // See: https://eslint.org/docs/rules/no-restricted-modules
-  "no-restricted-modules": "off",
-
-  // See: https://eslint.org/docs/rules/no-sync
-  "no-sync": ["error", { allowAtRootLevel: true }]
+  "no-restricted-modules": "off"
 };
 
 module.exports = {
