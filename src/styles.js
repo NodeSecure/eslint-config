@@ -58,7 +58,7 @@ const rules = {
   "function-paren-newline": "off",
 
   // See: https://eslint.org/docs/rules/id-blacklist
-  "id-blacklist": "off",
+  "id-denylist": "off",
 
   // See: https://eslint.org/docs/rules/id-length
   "id-length": "off",
