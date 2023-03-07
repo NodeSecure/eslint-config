@@ -21,7 +21,6 @@ const parserOptions = {
 const extendedRules = [
   join(kRootRulesDir, "possible-errors.js"),
   join(kRootRulesDir, "best-practices.js"),
-  join(kRootRulesDir, "node.js"),
   join(kRootRulesDir, "styles.js"),
   join(kRootRulesDir, "ecmascript6.js")
 ];
