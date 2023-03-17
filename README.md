@@ -1,4 +1,7 @@
-# Eslint-config
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/4438263/226010231-9cf0323b-904a-472e-a35f-2349853da06e.jpg" alt="@nodesecure/eslint-config">
+</p>
+
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/eslint-config/master/package.json&query=$.version&label=Version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/NodeSecure/eslint-config/commit-activity)
 [![OpenSSF
