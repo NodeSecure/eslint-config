@@ -1,6 +1,6 @@
 {
   "name": "@nodesecure/eslint-config",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "NodeSecure Node.js ESLint configuration",
   "main": "index.js",
   "private": false,
