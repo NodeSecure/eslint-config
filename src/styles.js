@@ -249,7 +249,13 @@ const rules = {
   "quote-props": ["error", "as-needed"],
 
   // See: https://eslint.org/docs/rules/quotes
-  "quotes": ["error", "double"],
+  "quotes": [
+    "error",
+    "double",
+    {
+      "allowTemplateLiterals": true
+    }
+  ],
 
   // See: https://eslint.org/docs/rules/semi
   "semi": ["error", "always"],
