@@ -16,7 +16,8 @@ Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/esl
 <div align="center">NodeSecure Node.js Eslint configuration (Work for both JavaScript and TypeScript projects).</div>
 
 ## Requirements
-- [Node.js](https://nodejs.org/en/) v16 or higher
+
+- [Node.js](https://nodejs.org/en/) v18 or higher
 
 ## Getting Started
 
@@ -31,9 +32,10 @@ $ yarn add @nodesecure/eslint-config -D
 ## Usage example
 
 Create an `.eslintrc` file at the root of your project with the following (JSON) content:
+
 ```json
 {
-    "extends": "@nodesecure/eslint-config"
+  "extends": "@nodesecure/eslint-config"
 }
 ```
 
@@ -42,7 +44,9 @@ Edit the file as you want by adding [custom rules](https://eslint.org/docs/rules
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -68,4 +72,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
+
 MIT

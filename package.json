@@ -17,6 +17,9 @@
   "devDependencies": {
     "nyc": "^15.1.0"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "files": [
     "index.js",
     "src"
