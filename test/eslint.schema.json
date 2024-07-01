@@ -455,10 +455,6 @@
                     "$ref": "#/definitions/rule",
                     "description": "Require calls to isNaN() when checking for NaN"
                 },
-                "valid-jsdoc": {
-                    "$ref": "#/definitions/rule",
-                    "description": "Enforce valid JSDoc comments"
-                },
                 "valid-typeof": {
                     "$ref": "#/definitions/rule",
                     "description": "Enforce comparing typeof expressions against valid strings"
@@ -1152,10 +1148,6 @@
                 "quotes": {
                     "$ref": "#/definitions/rule",
                     "description": "Enforce the consistent use of either backticks, double, or single quotes"
-                },
-                "require-jsdoc": {
-                    "$ref": "#/definitions/rule",
-                    "description": "Require JSDoc comments"
                 },
                 "semi": {
                     "$ref": "#/definitions/rule",
