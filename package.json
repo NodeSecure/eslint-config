@@ -17,6 +17,8 @@
     "eslint": "^9.6.0"
   },
   "devDependencies": {
+    "@myunisoft/httpie": "^5.0.0",
+    "jsdom": "^24.1.0",
     "nyc": "^17.0.0"
   },
   "engines": {
@@ -27,7 +29,8 @@
     "src"
   ],
   "scripts": {
-    "test": "nyc --reporter=lcov node test/test.js"
+    "test": "nyc --reporter=lcov node test/test.js",
+    "sync": "node ./tools/sync.mjs"
   },
   "repository": {
     "type": "git",
