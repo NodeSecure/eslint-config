@@ -53,11 +53,11 @@ const rules = {
   // See: https://eslint.org/docs/rules/no-extra-boolean-cast
   "no-extra-boolean-cast": "error",
 
-  // See: https://eslint.org/docs/rules/no-extra-parens
-  "no-extra-parens": "off",
+  // See: https://eslint.style/rules/js/no-extra-parens
+  "@stylistic/js/no-extra-parens": "off",
 
-  // See: https://eslint.org/docs/rules/no-extra-semi
-  "no-extra-semi": "error",
+  // See: https://eslint.style/rules/js/no-extra-semi
+  "@stylistic/js/no-extra-semi": "error",
 
   // See: https://eslint.org/docs/rules/no-func-assign
   "no-func-assign": "error",

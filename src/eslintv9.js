@@ -28,7 +28,7 @@ const rules = {
   "prefer-named-capture-group": "off",
   "prefer-object-has-own": "error",
   "prefer-regex-literals": "off",
-  "strict": "safe"
+  "strict": "off"
 };
 
 module.exports = { rules };
