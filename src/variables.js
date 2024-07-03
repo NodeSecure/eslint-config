@@ -31,9 +31,6 @@ const rules = {
 
   // See: https://eslint.org/docs/rules/no-unused-vars
   "no-unused-vars": "error",
-
-  // See: https://eslint.org/docs/rules/no-use-before-define
-  "no-use-before-defined": ["error", { "functions": true, "classes": true }]
 };
 
 module.exports = { rules };

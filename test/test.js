@@ -13,7 +13,7 @@ config.parserOptions.requireConfigFile = false;
 
 async function main() {
   const eslint = new ESLint({
-    overrideConfig: config
+    overrideConfigFile: "config.eslint.mjs"
   });
 
   const [result] = await eslint.lintText('');

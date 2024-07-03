@@ -12,11 +12,14 @@
     "@babel/eslint-parser": "^7.24.7",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.6.0",
+    "@stylistic/eslint-plugin-js": "^2.3.0",
     "@typescript-eslint/eslint-plugin": "8.0.0-alpha.40",
     "@typescript-eslint/parser": "8.0.0-alpha.40",
     "eslint": "^9.6.0"
   },
   "devDependencies": {
+    "@myunisoft/httpie": "^5.0.0",
+    "jsdom": "^24.1.0",
     "nyc": "^17.0.0"
   },
   "engines": {
@@ -27,7 +30,8 @@
     "src"
   ],
   "scripts": {
-    "test": "nyc --reporter=lcov node test/test.js"
+    "test": "nyc --reporter=lcov node test/test.js",
+    "sync": "node ./tools/sync.mjs"
   },
   "repository": {
     "type": "git",

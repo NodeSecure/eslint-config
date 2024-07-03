@@ -5,23 +5,23 @@ const rules = {
   // See: https://eslint.org/docs/rules/arrow-body-style
   "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": true }],
 
-  // See: https://eslint.org/docs/rules/arrow-parens
-  "arrow-parens": ["error", "always"],
+  // See: https://eslint.style/rules/arrow-parens
+  "@stylistic/js/arrow-parens": ["error", "always"],
 
-  // See: https://eslint.org/docs/rules/arrow-spacing
-  "arrow-spacing": "error",
+  // See: https://eslint.style/rules/arrow-spacing
+  "@stylistic/js/arrow-spacing": "error",
 
   // See: https://eslint.org/docs/rules/constructor-super
   "constructor-super": "error",
 
-  // See: https://eslint.org/docs/rules/generator-star-spacing
-  "generator-star-spacing": ["error", { "before": false, "after": true }],
+  // See: https://eslint.style/rules/enerator-star-spacing
+  "@stylistic/js/generator-star-spacing": ["error", { "before": false, "after": true }],
 
   // See: https://eslint.org/docs/rules/no-class-assign
   "no-class-assign": "error",
 
-  // See: https://eslint.org/docs/rules/no-confusing-arrow
-  "no-confusing-arrow": ["error", { "allowParens": true }],
+  // See: https://eslint.style/rules/js/no-confusing-arrow
+  "@stylistic/js/no-confusing-arrow": ["error", { "allowParens": true }],
 
   // See: https://eslint.org/docs/rules/no-const-assign
   "no-const-assign": "error",
@@ -80,8 +80,8 @@ const rules = {
   // See: https://eslint.org/docs/rules/require-yield
   "require-yield": "error",
 
-  // See: https://eslint.org/docs/rules/rest-spread-spacing
-  "rest-spread-spacing": ["error", "never"],
+  // See: https://eslint.style/rules/js/rest-spread-spacing
+  "@stylistic/js/rest-spread-spacing": ["error", "never"],
 
   // See: https://eslint.org/docs/rules/sort-imports
   "sort-imports": "off",
@@ -89,11 +89,11 @@ const rules = {
   // See: https://eslint.org/docs/rules/symbol-description
   "symbol-description": "error",
 
-  // See: https://eslint.org/docs/rules/template-curly-spacing
-  "template-curly-spacing": "error",
+  // See: https://eslint.style/rules/js/rtemplate-curly-spacing
+  "@stylistic/js/template-curly-spacing": "error",
 
-  // See: https://eslint.org/docs/rules/yield-star-spacing
-  "yield-star-spacing": ["error", { "before": false, "after": true }]
+  // See: https://eslint.style/rules/js/ryield-star-spacing
+  "@stylistic/js/yield-star-spacing": ["error", { "before": false, "after": true }]
 };
 
 module.exports = {

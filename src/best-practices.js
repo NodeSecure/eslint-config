@@ -26,8 +26,8 @@ const rules = {
   // See: https://eslint.org/docs/rules/default-case
   "default-case": "off",
 
-  // See: https://eslint.org/docs/rules/dot-location
-  "dot-location": ["error", "property"],
+  // See: https://eslint.style/rules/js/dot-location
+  "@stylistic/js/dot-location": ["error", "property"],
 
   // See: https://eslint.org/docs/rules/dot-notation
   "dot-notation": "error",
@@ -80,8 +80,8 @@ const rules = {
   // See: https://eslint.org/docs/rules/no-fallthrough
   "no-fallthrough": "error",
 
-  // See: https://eslint.org/docs/rules/no-floating-decimal
-  "no-floating-decimal": "error",
+  // See: https://eslint.style/rules/js/no-floating-decimal
+  "@stylistic/js/no-floating-decimal": "error",
 
   // See: https://eslint.org/docs/rules/no-global-assign
   "no-global-assign": "error",
@@ -113,8 +113,8 @@ const rules = {
   // See: https://eslint.org/docs/rules/no-magic-numbers
   "no-magic-numbers": "off",
 
-  // See: https://eslint.org/docs/rules/no-multi-spaces
-  "no-multi-spaces": "error",
+  // See: https://eslint.style/rules/no-multi-spaces
+  "@stylistic/js/no-multi-spaces": "error",
 
   // See: https://eslint.org/docs/rules/no-multi-str
   "no-multi-str": "error",
@@ -149,8 +149,8 @@ const rules = {
   // See: https://eslint.org/docs/rules/no-return-assign
   "no-return-assign": ["error", "except-parens"],
 
-  // See: https://eslint.org/docs/rules/no-return-await
-  "no-return-await": "off",
+  // See: https://eslint.style/rules/jsno-return-await
+  "@stylistic/js/no-return-await": "off",
 
   // See: https://eslint.org/docs/rules/no-script-url
   "no-script-url": "error",
@@ -212,8 +212,8 @@ const rules = {
   // See: https://eslint.org/docs/rules/vars-on-top
   "vars-on-top": "error",
 
-  // See: https://eslint.org/docs/rules/wrap-iife
-  "wrap-iife": "error",
+  // See: https://eslint.style/rules/js/wrap-iife
+  "@stylistic/js/wrap-iife": "error",
 
   // See: https://eslint.org/docs/rules/yoda
   "yoda": "error"

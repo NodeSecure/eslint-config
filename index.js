@@ -22,7 +22,9 @@ const extendedRules = [
   join(kRootRulesDir, "possible-errors.js"),
   join(kRootRulesDir, "best-practices.js"),
   join(kRootRulesDir, "styles.js"),
-  join(kRootRulesDir, "ecmascript6.js")
+  join(kRootRulesDir, "ecmascript6.js"),
+  join(kRootRulesDir, "eslintv9.js"),
+  join(kRootRulesDir, "variables.js"),
 ];
 if (useTypeScript) {
   extendedRules.push(join(kRootRulesDir, "typescript.js"));
@@ -34,8 +36,12 @@ if (useTypeScript) {
 }
 
 module.exports = {
+  plugins: ["@stylistic/js"],
+  env: {
+    node: true
+  },
   extends: extendsRequired,
   parser,
   parserOptions,
-  rules
+  rules,
 }
